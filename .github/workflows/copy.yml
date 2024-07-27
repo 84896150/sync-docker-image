@@ -6,19 +6,19 @@ on:
       source:
         description: '镜像源 (Registry)'     
         required: true
-        default: 'docker.io'
+        default: 'registry.cn-hangzhou.aliyuncs.com'
       destination:
         description: '目标源 (Registry)'
         required: true
-        default: 'registry.cn-beijing.aliyuncs.com'
+        default: 'registry.cn-hangzhou.aliyuncs.com'
       source_repo:
         description: '仓库及标签 (格式 repo:tag)'
         required: true
-        default: ''
+        default: 'nxfz/aisuda-sa:'
       destination_repo:
         description: '目标仓库及标签 (格式 repo:tag)'
         required: true
-        default: ''
+        default: 'aisuda/aisuda-sa'
 
 jobs:
   copy:
