@@ -6,7 +6,7 @@ on:
       source:
         description: '镜像源 (Registry)'     
         required: true
-        default: 'registry.cn-hangzhou.aliyuncs.com'
+        default: 'registry.baidubce.com'
       destination:
         description: '目标源 (Registry)'
         required: true
@@ -14,7 +14,7 @@ on:
       source_repo:
         description: '仓库及标签 (格式 repo:tag)'
         required: true
-        default: 'nxfz/aisuda-sa:'
+        default: 'aisuda/aisuda-sa:'
       destination_repo:
         description: '目标仓库及标签 (格式 repo:tag)'
         required: true
